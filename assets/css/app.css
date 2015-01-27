@@ -6062,14 +6062,12 @@ blockquote p {
   font-size: 1.4rem; }
 
 .change-btn {
-  background: #c9423e;
-  color: #fff;
-  border-radius: 5px;
-  margin-top: 5px; }
-
-.change-btn {
   color: #fff;
   border-radius: 5px;
   margin-top: 5px; }
   .change-btn:hover {
     color: #fff; }
+
+label {
+  color: #79bfb4;
+  font-weight: 600; }
