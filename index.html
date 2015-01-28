@@ -28,12 +28,12 @@ overflow: hidden
   </head>
   <body>
   <div class="grid-block small-up-1 medium-up-2 large-up-3" style="margin-top:10px;">
-    <div class="small-6 grid-content">
+    <div class="small-6 grid-content can-hide">
       <div id="upload-file-container">
          <input type="file" name="photo" />
       </div>
     </div>
-    <div class="small-6 grid-content">
+    <div class="small-6 grid-content can-hide">
           <h1 class="user-name">John Smith</h1>
     </div>
   </div>
@@ -45,9 +45,10 @@ overflow: hidden
         <div class="grid-block shrink small-order-1">
           <ul class="small-vertical icon-top small-condense menu-bar dark">
             <li ui-sref-active="is-active"><a ui-sref="account-settings"><img zf-iconic="" data-src="assets/img/iconic/person.svg"></a></li>
-            <li ui-sref-active="is-active"><a ui-sref="user-details"><i class="fa fa-mobile" style="font-size: 27px;"></i></a></li>
+            <li ui-sref-active="is-active"><a ui-sref="order-history"><i class="fa fa-list"></i></a></li>
+            <li ui-sref-active="is-active"><a ui-sref="user-details"><i class="fa fa-mobile" style="font-size:27px;"></i></a></li>
             <li ui-sref-active="is-active"><a ui-sref="wishlist"><img zf-iconic="" data-src="assets/img/iconic/document.svg"><span class="alert badge">7</span></a></li>
-            <li ui-sref-active="is-active"><a ui-sref="product-hunt"><i class="fa fa-envelope"></i></a></li>
+            <li ui-sref-active="is-active"><a ui-sref="email-signup"><i class="fa fa-envelope"></i></a></li>
             <li ui-sref-active="is-active"><a ui-sref="app-settings"><img zf-iconic="" data-src="assets/img/iconic/cog.svg"></a></li>
           </ul>
         </div>
