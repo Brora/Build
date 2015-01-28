@@ -6053,6 +6053,9 @@ blockquote p {
 .float-none {
   float: none; }
 
+/*CSS Variables*/
+/*End CSS Variables*/
+/*Foundation Defaults*/
 .menu-bar {
   width: 100%; }
 
@@ -6060,6 +6063,13 @@ blockquote p {
   color: #fff;
   font-weight: 300;
   font-size: 1.4rem; }
+
+/*End Foundation Defaults*/
+/*Custom Styles*/
+.menu-bar.dark {
+  background: #402f53;
+  border-right: 1px solid #403D4E;
+  border-top: 1px solid #403D4E; }
 
 .change-btn {
   color: #fff;
@@ -6082,7 +6092,7 @@ label {
   padding-left: 6px; }
 
 .badge.alert {
-  background: #EB6969;
+  background: #c9423e;
   border-radius: 1000px;
   color: #fff;
   position: absolute;
@@ -6092,7 +6102,7 @@ label {
 .badge {
   font-size: 13px;
   padding: 0px 7px;
-  background: #EB6969;
+  background: #c9423e;
   border-radius: 1000px;
   color: #fff; }
 
@@ -6103,14 +6113,45 @@ label {
   position: absolute;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
-  display: inline-flex;
-  /* min-width: 1.75em; */ }
+  display: inline-flex; }
 
 .divider {
   margin: 0;
   margin-top: -35px;
   margin-bottom: -10px; }
 
+body {
+  background: #402f53; }
+
+.grid-frame {
+  border-top: 1px solid #403D4E; }
+
+.menu-bar.small-condense li {
+  border: 1px solid #403D4E; }
+
+[type="text"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff; }
+  [type="text"]:hover {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff; }
+  [type="text"]:focus {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff; }
+
+.fa {
+  color: #79bfb4; }
+
+.menu-bar.dark .iconic * {
+  fill: #79bfb4; }
+
+/*End Custom Styles*/
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
